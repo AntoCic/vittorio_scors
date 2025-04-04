@@ -61,6 +61,11 @@ body {}
 .shake {
   animation: shake 0.5s infinite;
 }
+
+.no-style-link {
+  all: unset;
+  cursor: pointer;
+}
 /*************************************************
     MEDIA RESPONSIVE
  *************************************************/
