@@ -49,6 +49,18 @@ body {}
     transform: translateY(10px) ;
   }
 }
+@keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  20% { transform: translate(-2px, 2px) rotate(-2deg); }
+  40% { transform: translate(2px, -2px) rotate(2deg); }
+  60% { transform: translate(-2px, 2px) rotate(-2deg); }
+  80% { transform: translate(2px, -2px) rotate(2deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.shake {
+  animation: shake 0.5s infinite;
+}
 /*************************************************
     MEDIA RESPONSIVE
  *************************************************/
